@@ -1,0 +1,27 @@
+
+small {
+    font-size: 12px;
+}
+
+#feats ul li {
+    padding-bottom: 30px;
+    list-style-type: none;
+}
+#feats ul li:before {
+    font-family: 'FontAwesome';
+    content: '\f00c';
+    margin:0 5px 0 -25px;
+    color: #50da00;
+}
+
+.small-divider {
+    margin: 0 0 35px 0;
+}
+
+#work span {
+    background-color: rgba(0,0,0,0.4);
+    padding: 5px;
+}
+#work .image::before {
+    background: none;
+}
